@@ -5,6 +5,8 @@ It works both as a console program and as a web app (via Flask, deployed on Rend
 
 🌐 Live Demo: Basic Calculator on Render
 
+🔗 URL: https://basic-calculator-zw7g.onrender.com
+
 🚀 Features
 
 Supports addition, subtraction, multiplication, division
@@ -59,6 +61,8 @@ Online Deployment:
 
 This app is live on Render:
 👉 https://basic-calculator-zw7g.onrender.com
+
+🔗 URL: https://basic-calculator-zw7g.onrender.com
 
 If you want to deploy your own:
 

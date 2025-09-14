@@ -3,6 +3,8 @@
 A simple calculator project built in Python that performs basic arithmetic operations.
 It works both as a console program and as a web app (via Flask, deployed on Render).
 
+🌐 Live Demo: Basic Calculator on Render
+
 🚀 Features
 
 Supports addition, subtraction, multiplication, division
@@ -13,23 +15,25 @@ Two versions:
 
 Console mode → run calculator.py
 
-Web mode → Flask app (app.py)
+Web mode → Flask app (app.py) deployed online
 
-Deployed on Render for online access
+Modern styled interface for easy use
 
 📂 Project Structure
 Basic-Calculator/
 ├── calculator.py       # Console-based calculator
-├── app.py              # Flask web app
+├── app.py              # Flask web app (deployed)
 ├── requirements.txt    # Python dependencies
 └── README.md           # Project documentation
 
 🖥️ Console Usage
+
 Run locally:
+
 python calculator.py
 
 
-Then follow the prompts:
+Example:
 
 Enter first number: 10
 Enter operator (+ - * /): *
@@ -53,25 +57,23 @@ Open browser → http://127.0.0.1:5000
 
 Online Deployment:
 
-This app can be deployed for free on Render.
+This app is live on Render:
+👉 https://basic-calculator-zw7g.onrender.com
 
-Steps:
+If you want to deploy your own:
 
-Push your code to GitHub (done ✅)
+Push this repo to GitHub.
 
 Go to Render
+ → create New Web Service.
 
-Create New Web Service
-
-Connect repo & set:
+Set:
 
 Build Command → pip install -r requirements.txt
 
 Start Command → gunicorn app:app
 
-Deploy 🎉 → You’ll get a public link like:
-
-https://basic-calculator.onrender.com
+Deploy 🚀
 
 ⚠️ Disclaimer
 

@@ -5,7 +5,7 @@ It works both as a console program and as a web app (via Flask, deployed on Rend
 
 🌐 Live Demo: Basic Calculator on Render
 
-🔗 URL: https://basic-calculator-zw7g.onrender.com
+🔗 URL: https://basic-calculator-zw7g.onrender.com/
 
 🚀 Features
 
